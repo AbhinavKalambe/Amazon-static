@@ -187,9 +187,71 @@ span{
     justify-content: center;
 }
 
+h2{
+    font-size: 1rem;
+}
 
+.mobile
+{
+    display: flex;
+    justify-content:center;
+    margin-top: 130px;
+    height: 200px;
+    width: 100%;
+    background-color: white;
+    border: 1px solid black;
+}
+.mobile img{
+    
+    display: flex;
+    justify-content:space-evenly;
+    margin-right: 15px;
 
+}
 
+.foot1{
+    height: 60px;
+    background-color: #37475a;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    
+}
+.foot1 p{
+    color: white;
+}
+.contactus1
+{
+    height: 260px;
+    background-color: #232f3e;
+    display: flex;
+    justify-content: space-evenly;
+    
+    
+}
+.h1{
+    font-size: 1.1em;
+    color: white;
+
+}
+.contactus1 a{
+    text-decoration: none;
+    color: #f3f3f3;
+}
+
+.contactus1 ul{
+    margin-top: 40px;
+}
+
+.copy-right{
+    display: flex;
+    text-align: center;
+    justify-content: center;
+    font-size: small;
+    height: 20PX;
+    background-color: #131a22;
+    color: #e5f9f9;
+}
 
 
 
