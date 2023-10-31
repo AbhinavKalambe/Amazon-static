@@ -1,0 +1,197 @@
+*{
+    margin: 0%;
+    font-family: Arial, Helvetica, sans-serif;
+    border: border-box;
+}
+
+.navbar{
+    height: 60px;
+    background-color: #0f1111;
+    color: white;
+    display: flex ;
+    align-items: center;
+    justify-content: space-evenly;
+}
+
+.navlogo{
+    height: 50px;
+    width: 100px;
+}
+
+.logo{
+
+    background-image: url("amazon_logo.png");
+    background-size: cover;
+    height: 50px;
+    width: 100%;
+}
+
+.border{
+   border: 1px solid transparent; 
+}
+
+.border :hover{
+        border: 1px solid white;
+}
+
+.add1{
+    margin-left: 12px;
+    color: #CCCCCC;
+    font-size:1rem ;
+}
+.add2{
+    font-size: 0.8rem;
+}
+
+.addicon{
+    display: flex;
+    align-items: center;
+}
+
+.navsearch{
+    display: flex;
+    margin-left: 20px;
+    background-color: chocolate;
+    width: 620px;
+    height: 40px;
+    border-radius: 5px;
+    justify-content: space-evenly;
+}
+
+.search-select{
+    background-color: #f3f3f3;
+    width: 50px;
+    text-align: center;
+    border-top-left-radius: 5px;
+    border-bottom-left-radius: 5px;
+    border: none;
+}
+
+.search-input{
+    font-size: larger;
+    width: 100%;
+    border: none;
+
+}
+
+.searchicon{
+    width: 45px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-size: 1.5rem;
+}
+
+span{
+    font-size: 0.7rem;
+
+}
+
+.lists{
+    font-size: 0.85rem;
+    font-weight: 700;
+
+}
+.orders{
+    font-size: 0.85rem;
+    font-weight: 700;
+
+}
+.cart
+{
+    font-size: 1rem;
+}
+
+.cart i{
+    font-size: 25px;
+}
+
+
+.nav2{
+    background-color: rgb(31, 31, 31);
+    width: 100%;
+    height: 30px;
+    display: flex;
+    align-items: center;
+    justify-content: space-evenly;
+    
+    
+}
+
+.iconham {
+    display: flex;
+    align-items: center;
+    color: white; 
+    justify-content: space-evenly; 
+}
+
+
+.iconham p {
+    display: inline;
+    color: white;
+   font-size: 1rem;
+    margin-right: 70px;
+}
+.hero{
+    background-image: url("J23_P3A_PC_NTA_Today_Hero_2X_EN._CB575585158_.jpg");
+    height: 600px;
+    width: 100%;
+    display: flex;
+    background-size: cover;
+   justify-content: space-evenly;
+   
+    
+}
+
+
+.box1{
+    height: 350px;
+    width: 420px;
+    background-color: white;
+    margin-top: 300px;
+   
+    
+    
+}
+.box2{
+    height: 350px;
+    width: 420px;
+    background-color: white;
+    margin-top: 300px;
+    
+}
+.box3{
+    height: 350px;
+    width: 420px;
+    background-color: white;
+    margin-top: 300px;
+    
+}
+
+.photu{
+    
+    margin: 15px;
+    display: flex;
+    justify-content: center;
+    flex-wrap: wrap;
+    align-items: center;
+}
+
+.photu p{
+    font-size: small
+}
+
+.headp{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+
+
+
+
+
+
+
+
