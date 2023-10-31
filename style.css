@@ -1,3 +1,10 @@
+/*
+* Prefixed by https://autoprefixer.github.io
+* PostCSS: v8.4.14,
+* Autoprefixer: v10.4.7
+* Browsers: last 4 version
+*/
+
 *{
     margin: 0%;
     font-family: Arial, Helvetica, sans-serif;
@@ -8,9 +15,15 @@
     height: 60px;
     background-color: #0f1111;
     color: white;
+    display: -webkit-box;
+    display: -ms-flexbox;
     display: flex ;
-    align-items: center;
-    justify-content: space-evenly;
+    -webkit-box-align: center;
+        -ms-flex-align: center;
+            align-items: center;
+    -webkit-box-pack: space-evenly;
+        -ms-flex-pack: space-evenly;
+            justify-content: space-evenly;
 }
 
 .navlogo{
@@ -44,18 +57,26 @@
 }
 
 .addicon{
+    display: -webkit-box;
+    display: -ms-flexbox;
     display: flex;
-    align-items: center;
+    -webkit-box-align: center;
+        -ms-flex-align: center;
+            align-items: center;
 }
 
 .navsearch{
+    display: -webkit-box;
+    display: -ms-flexbox;
     display: flex;
     margin-left: 20px;
     background-color: chocolate;
     width: 620px;
     height: 40px;
     border-radius: 5px;
-    justify-content: space-evenly;
+    -webkit-box-pack: space-evenly;
+        -ms-flex-pack: space-evenly;
+            justify-content: space-evenly;
 }
 
 .search-select{
@@ -76,9 +97,15 @@
 
 .searchicon{
     width: 45px;
+    display: -webkit-box;
+    display: -ms-flexbox;
     display: flex;
-    justify-content: center;
-    align-items: center;
+    -webkit-box-pack: center;
+        -ms-flex-pack: center;
+            justify-content: center;
+    -webkit-box-align: center;
+        -ms-flex-align: center;
+            align-items: center;
     font-size: 1.5rem;
 }
 
@@ -111,18 +138,30 @@ span{
     background-color: rgb(31, 31, 31);
     width: 100%;
     height: 30px;
+    display: -webkit-box;
+    display: -ms-flexbox;
     display: flex;
-    align-items: center;
-    justify-content: space-evenly;
+    -webkit-box-align: center;
+        -ms-flex-align: center;
+            align-items: center;
+    -webkit-box-pack: space-evenly;
+        -ms-flex-pack: space-evenly;
+            justify-content: space-evenly;
     
     
 }
 
 .iconham {
+    display: -webkit-box;
+    display: -ms-flexbox;
     display: flex;
-    align-items: center;
+    -webkit-box-align: center;
+        -ms-flex-align: center;
+            align-items: center;
     color: white; 
-    justify-content: space-evenly; 
+    -webkit-box-pack: space-evenly; 
+        -ms-flex-pack: space-evenly; 
+            justify-content: space-evenly; 
 }
 
 
@@ -136,9 +175,13 @@ span{
     background-image: url("J23_P3A_PC_NTA_Today_Hero_2X_EN._CB575585158_.jpg");
     height: 600px;
     width: 100%;
+    display: -webkit-box;
+    display: -ms-flexbox;
     display: flex;
     background-size: cover;
-   justify-content: space-evenly;
+   -webkit-box-pack: space-evenly;
+       -ms-flex-pack: space-evenly;
+           justify-content: space-evenly;
    
     
 }
@@ -171,10 +214,17 @@ span{
 .photu{
     
     margin: 15px;
+    display: -webkit-box;
+    display: -ms-flexbox;
     display: flex;
-    justify-content: center;
-    flex-wrap: wrap;
-    align-items: center;
+    -webkit-box-pack: center;
+        -ms-flex-pack: center;
+            justify-content: center;
+    -ms-flex-wrap: wrap;
+        flex-wrap: wrap;
+    -webkit-box-align: center;
+        -ms-flex-align: center;
+            align-items: center;
 }
 
 .photu p{
@@ -182,9 +232,15 @@ span{
 }
 
 .headp{
+    display: -webkit-box;
+    display: -ms-flexbox;
     display: flex;
-    align-items: center;
-    justify-content: center;
+    -webkit-box-align: center;
+        -ms-flex-align: center;
+            align-items: center;
+    -webkit-box-pack: center;
+        -ms-flex-pack: center;
+            justify-content: center;
 }
 
 h2{
@@ -193,8 +249,12 @@ h2{
 
 .mobile
 {
+    display: -webkit-box;
+    display: -ms-flexbox;
     display: flex;
-    justify-content:center;
+    -webkit-box-pack:center;
+        -ms-flex-pack:center;
+            justify-content:center;
     margin-top: 130px;
     height: 200px;
     width: 100%;
@@ -203,8 +263,14 @@ h2{
 }
 .mobile img{
     
+    display: -webkit-box;
+    
+    display: -ms-flexbox;
+    
     display: flex;
-    justify-content:space-evenly;
+    -webkit-box-pack:space-evenly;
+        -ms-flex-pack:space-evenly;
+            justify-content:space-evenly;
     margin-right: 15px;
 
 }
@@ -212,9 +278,15 @@ h2{
 .foot1{
     height: 60px;
     background-color: #37475a;
+    display: -webkit-box;
+    display: -ms-flexbox;
     display: flex;
-    justify-content: center;
-    align-items: center;
+    -webkit-box-pack: center;
+        -ms-flex-pack: center;
+            justify-content: center;
+    -webkit-box-align: center;
+        -ms-flex-align: center;
+            align-items: center;
     
 }
 .foot1 p{
@@ -224,8 +296,12 @@ h2{
 {
     height: 260px;
     background-color: #232f3e;
+    display: -webkit-box;
+    display: -ms-flexbox;
     display: flex;
-    justify-content: space-evenly;
+    -webkit-box-pack: space-evenly;
+        -ms-flex-pack: space-evenly;
+            justify-content: space-evenly;
     
     
 }
@@ -244,15 +320,18 @@ h2{
 }
 
 .copy-right{
+    display: -webkit-box;
+    display: -ms-flexbox;
     display: flex;
     text-align: center;
-    justify-content: center;
+    -webkit-box-pack: center;
+        -ms-flex-pack: center;
+            justify-content: center;
     font-size: small;
     height: 20PX;
     background-color: #131a22;
     color: #e5f9f9;
 }
-
 
 
 
